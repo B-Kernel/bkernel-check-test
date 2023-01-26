@@ -1,2 +1,3 @@
-from sys import platform
-print(str(platform.system()))
+import platform
+import sys
+print(str(platform.system()) + " " + str(platform.release()))
